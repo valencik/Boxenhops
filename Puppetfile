@@ -26,7 +26,7 @@ github "homebrew",   "1.4.1"
 github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.2"
-github "nodejs",     "3.2.9"
+github "nodejs",     "3.2.10"
 github "openssl",    "1.0.0"
 github "repository", "2.2.0"
 github "ruby",       "6.3.4"
@@ -36,3 +36,9 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "shiftit",    "0.0.2"
+github "opera",      "0.2.1"
+github "vlc",        "1.0.4"
+github "virtualbox", "1.0.5"
+github "iterm2",     "1.0.3"
