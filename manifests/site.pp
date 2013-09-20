@@ -63,7 +63,7 @@ node default {
 	include opera
 	include vlc
 	include virtualbox
-	include iterm2
+	include iterm2::stable
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
