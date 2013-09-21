@@ -58,17 +58,20 @@ node default {
   include hub
   include nginx
 
-	#Added by Andrew Valencik -Sept 20 2013
-	include shiftit
-	include opera
-	include vlc
-	include virtualbox
-	include iterm2::stable
+  #Added by Andrew Valencik -Sept 20 2013
+  include shiftit
+  include opera
+  include vlc
+  include virtualbox
+  include iterm2::stable
+  include mou
+  include mou::themes
+  include colloquy
 
-  # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
+#  # fail if FDE is not enabled
+#  if $::root_encrypted == 'no' {
+#    fail('Please enable full disk encryption and try again')
+#  }
 
   # node versions
   include nodejs::v0_8
