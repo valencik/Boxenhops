@@ -9,9 +9,19 @@ GITHUBTARBALL
     boxen (3.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-colloquy
+  specs:
+    colloquy (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -111,7 +121,9 @@ GITHUBTARBALL
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
+  colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.1)
   gcc (= 2.0.1)
   git (= 1.2.5)
   homebrew (= 1.4.1)

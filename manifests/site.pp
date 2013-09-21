@@ -67,6 +67,7 @@ node default {
   include mou
   include mou::themes
   include colloquy
+  include dropbox
 
 #  # fail if FDE is not enabled
 #  if $::root_encrypted == 'no' {
