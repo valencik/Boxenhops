@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.0.2)
+    boxen (3.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-colloquy
@@ -94,14 +94,19 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-transmission
+  specs:
+    transmission (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.5)
+    virtualbox (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
-    vlc (1.0.4)
+    vlc (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -120,7 +125,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   autoconf (= 1.0.0)
-  boxen (= 3.0.2)
+  boxen (= 3.0.4)
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
@@ -140,7 +145,8 @@ DEPENDENCIES
   shiftit (= 0.0.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  virtualbox (= 1.0.5)
-  vlc (= 1.0.4)
+  transmission (= 1.0.0)
+  virtualbox (= 1.0.6)
+  vlc (= 1.0.5)
   xquartz (= 1.1.0)
 

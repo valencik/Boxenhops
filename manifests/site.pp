@@ -68,11 +68,7 @@ node default {
   include mou::themes
   include colloquy
   include dropbox
-
-#  # fail if FDE is not enabled
-#  if $::root_encrypted == 'no' {
-#    fail('Please enable full disk encryption and try again')
-#  }
+  include transmission
 
   # node versions
   include nodejs::v0_8
