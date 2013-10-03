@@ -14,6 +14,11 @@ GITHUBTARBALL
     colloquy (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-cyberduck
+  specs:
+    cyberduck (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
@@ -127,6 +132,7 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.4)
   colloquy (= 1.0.0)
+  cyberduck (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
   gcc (= 2.0.1)

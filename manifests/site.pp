@@ -70,6 +70,7 @@ node default {
   include dropbox
   include transmission
   include cyberduck
+  include java
 
   # node versions
   include nodejs::v0_8
