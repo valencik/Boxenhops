@@ -69,6 +69,7 @@ node default {
   include colloquy
   include dropbox
   include transmission
+  include cyberduck
 
   # node versions
   include nodejs::v0_8
