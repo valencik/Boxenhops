@@ -71,6 +71,7 @@ node default {
   include transmission
   include cyberduck
   include java
+  include mongodb
 
   # node versions
   include nodejs::v0_8
