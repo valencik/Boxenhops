@@ -72,6 +72,7 @@ node default {
   include cyberduck
   include java
   include mongodb
+  include flux
 
   # node versions
   include nodejs::v0_8
