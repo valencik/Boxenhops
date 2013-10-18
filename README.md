@@ -13,25 +13,22 @@ This repository template is just a basic example of _how_ to do things with them
 
 This Boxen configuration project provides the following by default:
 
-* Homebrew
-* Git
-* Hub
-* dnsmasq w/ .dev resolver for localhost
-* rbenv
-* nginx
-* Node.js 0.8 / 0.10.13
-* Ruby 1.9.3 / 2.0.0
-* ack
-* Findutils
-* GNU tar
-* Shiftit
-* Opera
-* *VLC
-* Virtualbox
 * iTerm2
+* Node.js 0.8 / 0.10.13
+* rbenv, Ruby 1.9.3 / 2.0.0
+* Homebrew, Git, Hub, dnsmasq 
+* ack, Findutils, GNU tar
+* Shiftit
+* Opera, nginx
+* VLC
+* Virtualbox
 * Mou
 * Colloquy
 * DropBox
+* Java
+* Mongodb
+* f.lux
+* Transmission, Cyberduck
 
 ## Getting Started
 
@@ -47,10 +44,16 @@ tested to be compatible with Boxen. Use the `Puppetfile` to pull them
 in dependencies automatically whenever `boxen` is run.
 
 
-
 ## Help!
 
 See [FAQ](https://github.com/boxen/our-boxen/blob/master/docs/faq.md).
 
 Use Issues or #boxen on irc.freenode.net.
+
+
+## Update packages
+
+If the package was installed with pkgdmg you must remove the puppetfile 
+in /private/var/db/ for that particular package.
+
 =======
