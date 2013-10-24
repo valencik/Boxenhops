@@ -73,6 +73,7 @@ node default {
   include java
   include mongodb
   include flux
+  include firefox
 
   # node versions
   include nodejs::v0_8
