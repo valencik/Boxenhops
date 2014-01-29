@@ -77,7 +77,7 @@ node default {
   include python
 
   # node versions
-  include nodejs
+  include nodejs::v_10
 
   # default ruby versions
   include ruby::1_9_3
