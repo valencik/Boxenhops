@@ -74,10 +74,10 @@ node default {
   include mongodb
   include flux
   include firefox
+  include python
 
   # node versions
-  include nodejs::v0_8
-  include nodejs::v0_10
+  include nodejs
 
   # default ruby versions
   include ruby::1_9_3
