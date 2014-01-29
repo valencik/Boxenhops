@@ -80,7 +80,6 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_9_3
   include ruby::2_0_0
 
   # common, useful packages
